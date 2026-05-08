@@ -9,7 +9,7 @@ while pelanggan < 2:
 while True:
   harga = int(input("masukkan harga barang : "))
   if harga == 0:
-    break
+     break
   total += harga
 print("total : ", total)
 pelanggan += 1
